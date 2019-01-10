@@ -1,0 +1,25 @@
+{
+  "name": "email_extractor",
+  "version": "1.0.0",
+  "description": "Node.js tool to log unique email addresses from a file or string",
+  "main": "search.js",
+  "scripts": {
+    "start": "node search"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonmmi/email_extractor.git"
+  },
+  "keywords": [
+    "email",
+    "extractor",
+    "node",
+    "javascript"
+  ],
+  "author": "Aaron Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonmmi/email_extractor/issues"
+  },
+  "homepage": "https://github.com/andersonmmi/email_extractor#readme"
+}
