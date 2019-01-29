@@ -16,6 +16,7 @@ function returnMatches(data) {
 
 function sortMatches(matches) {
   let sortedArray = [];
+  if (!matches) return "No emails found!";
   while (matches.length > 0) {
     let email = matches.pop();
     if (!sortedArray.includes(email)) {
